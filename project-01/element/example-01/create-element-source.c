@@ -20,7 +20,7 @@ main (int   argc,
     g_print("Create successful!\n");
   }
 
-  gst_object_unref (GST_OBJECT (element)); //decreases the reference count for the element by 1
+  gst_object_unref ((element)); //decreases the reference count for the element by 1
 
   return 0;
 }
